@@ -38,10 +38,10 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Checkout Nutest Repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           # Includes the updated `returns.results` type annotation needed by
           # recent Nushell nightlies.
